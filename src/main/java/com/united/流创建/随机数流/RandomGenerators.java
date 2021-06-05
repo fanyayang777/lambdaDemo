@@ -1,4 +1,4 @@
-package com.united;
+package com.united.流创建.随机数流;
 
 import java.util.Random;
 import java.util.stream.Stream;

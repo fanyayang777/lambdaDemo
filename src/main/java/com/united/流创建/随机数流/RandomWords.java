@@ -1,4 +1,4 @@
-package com.united;
+package com.united.流创建.随机数流;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -42,6 +42,6 @@ public class RandomWords implements Supplier<String> {
     }
 
     public static void main(String[] args) throws IOException {
-        Stream.generate(new RandomWords("Cheese.dat")).limit(10).collect(Collectors.joining(" "));
+        Stream.generate(new RandomWords("F:/fuliao/data/lambdaDemo/src/main/java/com/united/流创建/随机数流/Cheese.dat")).limit(10).collect(Collectors.joining(" "));
     }
 }
